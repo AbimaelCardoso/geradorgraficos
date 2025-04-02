@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import io
 import base64
 from datetime import date
+import matplotlib
+matplotlib.use('Agg')
 
 app = FastAPI(title="COFIPEI API", description="API para geração de gráficos financeiros")
 
